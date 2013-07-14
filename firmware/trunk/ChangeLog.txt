@@ -1,0 +1,11 @@
+==============================
+Pi-Topping firmware change log
+==============================
+
+All the changes are accumulative unless noted. 
+
+Version 1.0 - June 9, 2013
+- First working version.
+
+ 
+

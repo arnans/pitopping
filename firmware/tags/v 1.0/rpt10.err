@@ -1,0 +1,35 @@
+>>> Warning 203 "C:\Program Files (x86)\PICC\drivers\pic18_usb.c" Line 616(1,1): Condition always TRUE
+>>> Warning 203 "rpt10.c" Line 1567(1,1): Condition always TRUE
+>>> Warning 203 "rpt10.c" Line 1757(1,1): Condition always TRUE
+>>> Warning 203 "rpt10.c" Line 2182(1,1): Condition always TRUE
+>>> Warning 203 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\stack.c" Line 39(1,1): Condition always TRUE
+>>> Warning 203 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\stack.c" Line 56(1,1): Condition always TRUE
+>>> Warning 203 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\stack.c" Line 80(1,1): Condition always TRUE
+>>> Warning 203 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\stack.c" Line 102(1,1): Condition always TRUE
+>>> Warning 203 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\ds1307.c" Line 13(1,1): Condition always TRUE
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_get_discard)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_tbe)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_flush_out_buffer)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (setLow)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (stopLogoProcedures)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (setHigh)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (getBit)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (@MUL1616)
+>>> Warning 216 "rpt10.c" Line 2399(0,1): Interrupts disabled during call to prevent re-entrancy:  (startStopLogoProcedures)
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\24256.c" Line 35(14,20): Variable never used:   status
+>>> Warning 202 "rpt10.c" Line 1598(8,9): Variable never used:   i
+>>> Warning 202 "rpt10.c" Line 1598(10,11): Variable never used:   j
+>>> Warning 202 "rpt10.c" Line 1819(8,9): Variable never used:   i
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\evalOpcode.c" Line 510(19,23): Variable never used:   opr3
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\evalOpcode.c" Line 511(16,26): Variable never used:   genPurpose
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\evalOpcode.c" Line 512(7,13): Variable never used:   strPtr
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\i2cDisplay.c" Line 24(8,14): Variable never used:   inbyte
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\bootload.c" Line 143(22,23): Variable never used:   j
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\bootload.c" Line 147(17,28): Variable never used:   bufferIndex
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\bootload.c" Line 148(17,25): Variable never used:   writeLen
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\7segment.c" Line 175(9,19): Variable never used:   charToShow
+>>> Warning 202 "C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\7segment.c" Line 177(8,9): Variable never used:   i
+      Memory usage:   ROM=33%      RAM=25% - 68%
+      0 Errors,  32 Warnings.
+Build Successful.

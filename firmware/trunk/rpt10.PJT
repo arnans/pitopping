@@ -1,0 +1,70 @@
+[PROJECT]
+Target=rpt10.HEX
+Development_Mode=2
+Processor=0xB650
+Processor_Text=PIC18F66J50
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\rpt10.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[rpt10.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=rpt10.c
+
+[Windows]
+0=0000 rpt10.c 0 0 796 451 3 0
+
+[Opened Files]
+1=rpt10.c
+2=..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F66J50.H
+3=rpt10.H
+4=bootload.h
+5=logovm.h
+6=stack.h
+7=evalOpcode.h
+8=memoryMap.h
+9=eeprom.h
+10=24256.c
+11=..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.H
+12=..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+13=..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+14=i2cDisplay.h
+15=i2c.h
+16=ds1307.h
+17=7segment.h
+18=logovm.c
+19=evalOpcode.c
+20=stack.c
+21=i2cDisplay.c
+22=bootload.c
+23=i2c.c
+24=ds1307.c
+25=7segment.c
+26=
+27=7segment.c
+28=7segment.h
+29=
+30=i2c.c
+31=ds1307.c
+32=rpt10.sta
+33=
+[Units]
+Count=1
+1=rpt10 (main)

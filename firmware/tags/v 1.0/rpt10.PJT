@@ -1,0 +1,70 @@
+[PROJECT]
+Target=rpt10.HEX
+Development_Mode=2
+Processor=0xB650
+Processor_Text=PIC18F66J50
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\Users\arnan\Documents\Pi Topping\Firmware\gogo\trunk\rpt10.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[rpt10.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=rpt10.c
+
+[Windows]
+0=0000 rpt10.c 0 0 796 451 3 0
+
+[Opened Files]
+1=rpt10.c
+2=..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F66J50.H
+3=rpt10.H
+4=bootload.h
+5=logovm.h
+6=stack.h
+7=evalOpcode.h
+8=memoryMap.h
+9=i2cDisplay.h
+10=i2c.h
+11=ds1307.h
+12=7segment.h
+13=logovm.c
+14=evalOpcode.c
+15=stack.c
+16=i2cDisplay.c
+17=bootload.c
+18=i2c.c
+19=ds1307.c
+20=7segment.c
+21=
+22=..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb_cdc.h
+23=..\..\..\..\gogo\display\firmware\2.0.1\16F886\display_slave.c
+24=7segment.c
+25=7segment.h
+26=
+27=7segment.c
+28=7segment.h
+29=
+30=i2c.c
+31=ds1307.c
+32=rpt10.sta
+33=
+[Units]
+Count=1
+1=rpt10 (main)

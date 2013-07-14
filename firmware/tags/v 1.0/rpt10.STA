@@ -1,0 +1,246 @@
+
+ROM used:   21604 (33%)
+            22530 (34%) including unused fragments
+
+            2 Average locations per line
+            3 Average locations per statement
+
+RAM used:   974 (25%) at main() level
+            2657 (68%) worst case
+
+Stack used: 19/31 worst case (10 in main + 9 for interrupts)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 2398   716   9  rpt10.c
+  516     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F66J50.H
+  776   138   2  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb_cdc.h
+  224     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\pic18_usb.h
+  328     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb_hw_layer.h
+  297     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb_desc_cdc.h
+ 1100     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb.h
+  866   238   3  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\usb.c
+ 1370   317   4  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\pic18_usb.c
+   28     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+  233     0   0  rpt10.H
+   15     0   0  bootload.h
+  224     0   0  logovm.h
+   42     0   0  stack.h
+   49     0   0  evalOpcode.h
+  333     0   0  memoryMap.h
+   25     0   0  eeprom.h
+   77    18   0  24256.c
+ 1351   359   4  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.H
+   32     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  423   125   1  ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   24     0   0  i2cDisplay.h
+    4     0   0  i2c.h
+    6     0   0  ds1307.h
+   32     0   0  7segment.h
+   86   726   9  logovm.c
+  829  1062  13  evalOpcode.c
+  177   761   9  stack.c
+  253   815  10  i2cDisplay.c
+  282   804  10  bootload.c
+  147   740   9  i2c.c
+  255   746   9  ds1307.c
+  248   829  10  7segment.c
+----- -----
+13050  8394 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     30   0   7             @READ_PROGRAM_MEMORY
+0     30   0   0             @FLASHWR
+0     86   0   7             @WRITE_PROGRAM_MEMORY
+0     42   0   1             @delay_ms1
+0     38   0   1             @delay_us1
+0     32   0   0             @const196
+0     32   0   0             @const199
+0     48   0   0             @const202
+0     48   0   0             @const205
+0     84   0   0             @const208
+0     18   0   0             @const211
+0     24   0   0             @const214
+0     34   0   0             @const219
+0     52   0   0             @const223
+0     34   0   5             @MUL1616
+0     86   0   4   139  4.3  usb_tbe
+0     42   0   1   132  2.2  usb_detach
+0     38   0   0   136  2.2  usb_attach
+0      4   0   0    16  1.0  usb_init_cs
+0     38   0   1   362  5.0  usb_task
+0     14   0   0    61  2.5  usb_init
+0    288   1   9  1092  5.4  usb_flush_in
+0    158   0  10   344  6.1  usb_put_packet
+0    252   1   9   914  5.0  usb_flush_out
+0     68   0   3    66  2.7  usb_rx_packet_size
+0    102   0   6   258  4.6  usb_stall_ep
+0    100   0   6   266  4.6  usb_unstall_ep
+0    118   0   5   373  6.0  usb_endpoint_stalled
+0     26   0   1    94  2.7  usb_set_address
+0    484   1  12  1774 10.4  usb_set_configured
+0    112   0   5   199  3.2  usb_disable_endpoint
+0     30   0   1    99  3.0  usb_disable_endpoints
+0      4   0   0    61  4.0  usb_clear_trn
+0    190   0   2   656  6.7  usb_isr
+0      6   0   0    43  2.0  usb_isr_sof
+0     54   0   0   357  4.2  usb_isr_rst
+0     32   0   0   508  4.0  usb_init_ep0_setup
+0      8   0   0    74  2.8  usb_isr_uerr
+0     14   0   0    82  2.8  usb_isr_uidle
+0     20   0   0   102  3.3  usb_isr_activity
+0     22   0   0   151  3.9  usb_isr_stall
+0      6   0   1    30  1.7  usb_request_send_response
+0      6   0   0    22  1.2  usb_request_get_data
+0      4   0   0    22  1.2  usb_request_stall
+0    248   1   2  1485  7.8  usb_isr_tok_dne
+0     94   0  14             @MUL3232
+0     48   0   3   273  4.0  usb_token_reset
+0     78   0   3   274  5.9  usb_endpoint_is_valid
+0     50   0   1   212  3.1  usb_isr_tok_in_dne
+0     30   0   1   115  2.5  usb_isr_tok_out_dne
+0     50   0   0   375  6.4  usb_isr_tok_setup_dne
+0    182   0   0  1454  8.3  usb_isr_tkn_setup_StandardDevice
+0    156   0   3   939  7.7  usb_isr_tkn_setup_StandardInterface
+0    104   0   0   753  5.8  usb_isr_tkn_setup_StandardEndpoint
+0    184   0   0  1088  8.7  usb_Get_Descriptor
+0     14   0   0    76  1.8  usb_finish_set_address
+0    136   0   4   622  9.1  usb_copy_desc_seg_to_ep
+0     98   0   0   401  6.1  usb_isr_tok_out_cdc_control_dne
+0    174   0   0  1146  8.3  usb_isr_tkn_cdc
+0     28   0   0   174  3.6  usb_isr_tok_out_cdc_data_dne
+0      6   0   0    16  1.0  usb_isr_tok_in_cdc_data_dne
+0     38   0   0   106  2.9  usb_cdc_flush_out_buffer
+0    124   0   4   280  2.3  usb_cdc_init
+0     16   0   0    59  2.3  usb_cdc_get_discard
+0     58   0   2   239  5.5  usb_cdc_getc
+0     56   0   4   206  4.5  _usb_cdc_putc_fast_noflush
+0     54   0   1    67  1.8  usb_cdc_putc_fast
+0     18   0   1    80  3.1  usb_cdc_putc
+0     28   0   1             @I2C_WRITEU_1
+0     28   0   1             @I2C_READU_1
+0     10   0   0             @PUTCHARI_BIU_1
+0      8   0   0    32  1.0  init_ext_eeprom
+0     80   0   2             @MUL88
+0    130   0   4   101  3.8  rand
+0     70   0   5             @DIV1616
+0     18   0   4    39  2.1  srand
+0      2   0   0     5  1.0  reserved
+0     56   0   2   174  4.0  serial_isr
+0     84   0   1   336  5.5  rtccISR
+0    806   2   4  1737  6.4  timer1ISR
+0     16   0   0    42  1.7  timer2ISR
+0     92   0   1   365  5.1  timer3ISR
+0    218   1   4   621  6.2  ccp2_isr
+0     24   0   0   108  1.7  stopLogoProcedures
+0    146   0   3   297  4.3  startStopLogoProcedures
+0     22   0   2    35  1.4  setLow
+0     66   0   6             @WRITEBITA
+0     24   0   2    35  1.4  setHigh
+0     30   0   3    63  3.1  getBit
+0     42   0   6    63  3.1  setBit
+0     44   0   6    68  3.5  clearBit
+0     36   0   1   104  2.5  active_comm_putc
+0      6   0   1    25  1.6  TalkToMotor
+0    128   0   3   508  6.8  MotorControl
+0     38   0   0             @goto12885
+0    176   0   4   715  7.8  SetMotorPower
+0     40   0   0             @goto12913
+0     82   0   5   208  5.7  ChangeMotorPower
+0    374   1  11  1290 12.2  createPWMVectorTable
+0     86   0   3   244  6.2  SetMotorMode
+0     20   0   1    96  2.9  ENHigh
+0     22   0   1    96  2.9  ENLow
+0     34   0   2    68  2.4  MotorON
+0    138   0   6   208  3.7  MotorOFF
+0     70   0   1   119  3.2  MotorRD
+0     22   0   1    38  2.1  MotorThisWay
+0     22   0   1    38  2.1  MotorThatWay
+0    104   0   2   223  4.5  MotorCoast
+0     16   0   0    61  1.8  DoMotorStuff
+0    228   1   3   937  6.0  miscControl
+0     34   0   0             @goto13096
+0     38   0   0             @goto13104
+0     18   0   0    48  1.1  beep
+0    138   0   6   329  5.8  DoSensorStuff
+0     24   0   2   110  3.7  SetBurstMode
+0     30   0   1    94  3.1  readSensor
+0     40   0   2    69  1.9  getSensorVal
+0     26   0   1    24  1.2  switchAdcChannel
+0    106   0   6   447  5.8  readSerialBuffer
+0     20   0   0    24  1.7  serialKbhit
+0     26   0   1    48  2.1  serialGetChar
+0     80   0   0   308  5.5  DoDisplayModuleStuff
+0     72   0   1   152  1.9  init_variables
+0     60   0   0   243  1.4  intro
+0     46   0   1    86  1.6  Halt
+0    132   0   4   218  4.1  clearMotors
+0    200   0   3  1044  2.9  initBoard
+0     36   0   2   125  3.0  FLASHSetWordAddress
+0     86   0   6   167  4.7  FLASHBufferedWrite
+0     18   0   2    35  1.3  FLASHWrite
+0     86   0   2   112  3.0  FLASHFlushBuffer
+0    480   11043  1276 10.4  writeFLASH
+0    890   2   5  4622 14.7  ProcessInput
+0   1460   3  13  4181 13.1  main
+0     40   0   0             @goto13457
+0   2784   6  14  9528 18.9  evalOpcode
+0     48   0   0             @goto13743
+0   1526   4  54  5764 11.7  evalOpcode2
+0     90   0   4   220  5.0  stkPush
+0     84   0   1   204  4.9  stkPop
+0    108   0   4   220  5.0  inputPush
+0    104   0   1   204  4.9  inputPop
+0     12   0   0    25  1.2  clearStack
+0    114   0   7   162  5.0  sendBytes
+0     94   0   5   179  4.7  fetchNextOpcode
+0    122   0   5   467  6.3  displayPing
+0    554   1   5  1036  7.5  displayValue
+0    102   0   5   367  4.1  displayText
+0    112   0   4   279  5.1  displayLongText
+0    152   0   4   432  7.5  displaySendSensors
+0     36   0   0    55  1.1  clearDisplay
+0     52   0   2   121  2.6  getDisplayPos
+0     44   0   1    86  1.3  setDisplayPos
+0     48   0   2   189  4.9  a2i
+0     48   0   2    67  2.1  read8
+0    426   11043  1140 10.4  writeFlash
+0    498   1  61  2642 13.3  downloadBootloader
+0     10   0   0    69  1.6  resetI2C
+0     54   0   4   214  4.0  i2cWrite
+0     92   0   6   297  4.8  i2cRead
+0     42   0   3   240  6.0  bin2bcd
+0     44   0   3   155  4.7  bcd2bin
+0    144   0   2   344  2.8  rtcInit
+0     44   0   3   132  3.7  rtcGetItem
+0     32   0   3    61  1.6  rtcSetItem
+0    656   2   1  2718  4.4  Char2Segments
+0     14   0   0    69  1.6  cls_internal7Seg
+0     20   0   0   149  1.3  turnOffAllSegments
+0     44   0   4   167  2.8  showOnBuiltIn7Segment
+0    134   0   4  1331  5.4  showNextDigit
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               142
+    Statements              8394
+    Comments                13189
+    Volume (V)              139158
+    Difficulty (D)          637.5
+    Effort to implement (E) 88711432
+    Time to implement (T)   1369 hours, 0 minutes
+    Est Delivered Bugs (B)  66
+    Cyclomatic Complexity   542
+    Maintainability (MI)    103
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00006     4  4  
+00008-000F4   238  0  
+000F6-057FE  21360  922  
+05800-0FFF0     2  42992  
+0FFF2-0FFF6     0  6  
+
+
+
