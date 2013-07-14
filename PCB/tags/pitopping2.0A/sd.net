@@ -1,0 +1,1190 @@
+# EESchema Netlist Version 1.1 created  27/5/2556 9:53:21
+(
+ ( /4FB621D5/51925BD1 $noname  R13 3.3k {Lib=R}
+  (    1 SW )
+  (    2 AGND )
+ )
+ ( /4FB621D5/51925BCB $noname  SW3 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 SW )
+ )
+ ( /4FB621D5/518CBC52 $noname  P14 Jumper_I2C {Lib=CONN_2}
+  (    1 N-000059 )
+  (    2 +3.3V )
+ )
+ ( /4FB621D5/518B7659 $noname  R6 3.3k {Lib=R}
+  (    1 N-000066 )
+  (    2 AGND )
+ )
+ ( /4FB621D5/4FB621E7 $noname  U1 PIC18F66J50 {Lib=PIC18F66J50}
+  (    1 /PIC18F66J50/G )
+  (    2 /PIC18F66J50/DIG.4 )
+  (    3 /PIC18F66J50/B )
+  (    4 /PIC18F66J50/DIG.3 )
+  (    5 /PIC18F66J50/DIG.2 )
+  (    6 /PIC18F66J50/F )
+  (    7 MCLR )
+  (    8 /PIC18F66J50/A )
+  (    9 AGND )
+  (   10 N-000036 )
+  (   11 /PIC18F66J50/DIG.1 )
+  (   12 /Sensor_port/SS1 )
+  (   13 /PIC18F66J50/SS2 )
+  (   14 D+ )
+  (   15 D- )
+  (   16 /Sensor_port/SS3 )
+  (   17 +3.3V )
+  (   18 +3.3V )
+  (   19 ? )
+  (   20 ? )
+  (   21 /PIC18F66J50/SS4 )
+  (   22 /Sensor_port/SS5 )
+  (   23 /Sensor_port/SS6 )
+  (   24 /Sensor_port/SS7 )
+  (   25 AGND )
+  (   26 +3.3V )
+  (   27 /Sensor_port/SS8 )
+  (   28 SW )
+  (   29 LED1 )
+  (   30 LED2 )
+  (   31 Tx )
+  (   32 Rx )
+  (   33 N-000035 )
+  (   34 SCL )
+  (   35 SDA )
+  (   36 ? )
+  (   37 PGD )
+  (   38 +3.3V )
+  (   39 N-000049 )
+  (   40 N-000050 )
+  (   41 AGND )
+  (   42 PGC )
+  (   43 /PIC18F66J50/MD42 )
+  (   44 /PIC18F66J50/MD41 )
+  (   45 /Motor_Driver/MD31 )
+  (   46 /Motor_Driver/MD32 )
+  (   47 /Motor_Driver/M2 )
+  (   48 N-000066 )
+  (   49 CS# )
+  (   50 SCK )
+  (   51 MOSI )
+  (   52 MISO )
+  (   53 /Motor_Driver/MD21 )
+  (   54 /PIC18F66J50/MD22 )
+  (   55 /PIC18F66J50/MD11 )
+  (   56 AGND )
+  (   57 +3.3V )
+  (   58 /Motor_Driver/MD12 )
+  (   59 INF )
+  (   60 /PIC18F66J50/M1 )
+  (   61 /PIC18F66J50/C )
+  (   62 /PIC18F66J50/DP )
+  (   63 /PIC18F66J50/D )
+  (   64 /PIC18F66J50/E )
+ )
+ ( /4FB621D5/50B49071 $noname  C9 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 +3.3V )
+ )
+ ( /4FB621D5/50B48F1E $noname  C7 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 +3.3V )
+ )
+ ( /4FB621D5/4FBC70C8 $noname  D3 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 AGND )
+ )
+ ( /4FB621D5/4FBC70C7 $noname  R5 460 {Lib=R}
+  (    1 LED2 )
+  (    2 N-000043 )
+ )
+ ( /4FB621D5/50AF52FD $noname  P1 I2C {Lib=CONN_4}
+  (    1 AGND )
+  (    2 SCL )
+  (    3 SDA )
+  (    4 +5V )
+ )
+ ( /4FB621D5/50AF52FC $noname  R1 3.3k {Lib=R}
+  (    1 N-000059 )
+  (    2 SDA )
+ )
+ ( /4FB621D5/50AF52FB $noname  R2 3.3k {Lib=R}
+  (    1 N-000059 )
+  (    2 SCL )
+ )
+ ( /4FB621D5/50AF5252 $noname  P3 SPI {Lib=CONN_6}
+  (    1 +3.3V )
+  (    2 MISO )
+  (    3 MOSI )
+  (    4 SCK )
+  (    5 CS# )
+  (    6 AGND )
+ )
+ ( /4FB621D5/50AF50FA $noname  K10 Infrared {Lib=CONN_3}
+  (    1 +3.3V )
+  (    2 AGND )
+  (    3 INF )
+ )
+ ( /4FB621D5/4FBC7073 $noname  R4 460 {Lib=R}
+  (    1 LED1 )
+  (    2 N-000065 )
+ )
+ ( /4FB621D5/4FBC7072 $noname  D2 LED {Lib=LED}
+  (    1 N-000065 )
+  (    2 AGND )
+ )
+ ( /4FB621D5/4FBC6DF7 $noname  S2 7SEGMENTSX4 {Lib=7SEGMENTSX4}
+  (    1 /PIC18F66J50/E )
+  (    2 /PIC18F66J50/D )
+  (    3 /PIC18F66J50/DP )
+  (    4 /PIC18F66J50/C )
+  (    5 /PIC18F66J50/G )
+  (    6 /PIC18F66J50/DIG.4 )
+  (    7 /PIC18F66J50/B )
+  (    8 /PIC18F66J50/DIG.3 )
+  (    9 /PIC18F66J50/DIG.2 )
+  (   10 /PIC18F66J50/F )
+  (   11 /PIC18F66J50/A )
+  (   12 /PIC18F66J50/DIG.1 )
+ )
+ ( /4FB621D5/4FBC6991 $noname  SP1 SPEAKER {Lib=SPEAKER}
+  (    1 N-000035 )
+  (    2 AGND )
+ )
+ ( /4FB621D5/4FBC63BD $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 N-000066 )
+ )
+ ( /4FB621D5/4FBC6344 $noname  R3 10k {Lib=R}
+  (    1 N-000032 )
+  (    2 +3.3V )
+ )
+ ( /4FB621D5/4FBC6342 $noname  P4 ICSP {Lib=CONN_5}
+  (    1 MCLR )
+  (    2 +3.3V )
+  (    3 AGND )
+  (    4 PGD )
+  (    5 PGC )
+ )
+ ( /4FB621D5/4FBC633F $noname  D1 LED {Lib=LED}
+  (    1 N-000032 )
+  (    2 MCLR )
+ )
+ ( /4FB621D5/4FBC633D $noname  P2 UART {Lib=CONN_4}
+  (    1 AGND )
+  (    2 Tx )
+  (    3 Rx )
+  (    4 ? )
+ )
+ ( /4FB621D5/4FB621F1 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000049 )
+  (    2 N-000050 )
+ )
+ ( /4FB621D5/4FB621EF $noname  C10 22pF {Lib=C}
+  (    1 AGND )
+  (    2 N-000050 )
+ )
+ ( /4FB621D5/4FB621EE $noname  C11 22pF {Lib=C}
+  (    1 AGND )
+  (    2 N-000049 )
+ )
+ ( /4FB621D5/4FB621E6 $noname  C5 10uF {Lib=C}
+  (    1 AGND )
+  (    2 N-000036 )
+ )
+ ( /4FB621D5/4FB621E4 $noname  C6 0.1uF {Lib=C}
+  (    1 +3.3V )
+  (    2 AGND )
+ )
+ ( /4FB621D5/4FB621DD $noname  C8 1uF {Lib=C}
+  (    1 AGND )
+  (    2 +3.3V )
+ )
+ ( /50AF30D7/51946EBF $noname  D13 LED {Lib=LED}
+  (    1 N-000087 )
+  (    2 M41 )
+ )
+ ( /50AF30D7/51946E90 $noname  D12 LED {Lib=LED}
+  (    1 N-000085 )
+  (    2 M31 )
+ )
+ ( /50AF30D7/51946E56 $noname  D11 LED {Lib=LED}
+  (    1 N-000076 )
+  (    2 M21 )
+ )
+ ( /50AF30D7/51946E17 $noname  D10 LED {Lib=LED}
+  (    1 N-000078 )
+  (    2 M11 )
+ )
+ ( /50AF30D7/50AF6F6B $noname  K8 Servo3 {Lib=CONN_3}
+  (    1 /Motor_Driver/MD31 )
+  (    2 Vservo )
+  (    3 AGND )
+ )
+ ( /50AF30D7/50B4A006 $noname  U2 LB1836M {Lib=LB1836M}
+  (    1 N-000074 )
+  (    2 /PIC18F66J50/MD11 )
+  (    3 M11 )
+  (    4 Vout )
+  (    5 M12 )
+  (    6 /Motor_Driver/MD12 )
+  (    7 AGND )
+  (    8 ? )
+  (    9 /PIC18F66J50/MD22 )
+  (   10 M22 )
+  (   11 Vout )
+  (   12 M21 )
+  (   13 /Motor_Driver/MD21 )
+  (   14 AGND )
+ )
+ ( /50AF30D7/518B71F5 $noname  D7 LED {Lib=LED}
+  (    1 M41 )
+  (    2 N-000087 )
+ )
+ ( /50AF30D7/518B71F2 $noname  D6 LED {Lib=LED}
+  (    1 M31 )
+  (    2 N-000085 )
+ )
+ ( /50AF30D7/518B71EF $noname  D5 LED {Lib=LED}
+  (    1 M21 )
+  (    2 N-000076 )
+ )
+ ( /50AF30D7/518B71EB $noname  D4 LED {Lib=LED}
+  (    1 M11 )
+  (    2 N-000078 )
+ )
+ ( /50AF30D7/50B86877 $noname  R10 1k {Lib=R}
+  (    1 N-000087 )
+  (    2 M42 )
+ )
+ ( /50AF30D7/50B86875 $noname  R9 1k {Lib=R}
+  (    1 N-000085 )
+  (    2 M32 )
+ )
+ ( /50AF30D7/50B86872 $noname  R8 1k {Lib=R}
+  (    1 N-000076 )
+  (    2 M22 )
+ )
+ ( /50AF30D7/50B8686B $noname  R7 1k {Lib=R}
+  (    1 N-000078 )
+  (    2 M12 )
+ )
+ ( /50AF30D7/50BC1F49 $noname  Q2 NPN {Lib=NPN}
+  (    1 N-000072 )
+  (    2 /Motor_Driver/M2 )
+  (    3 +5V )
+ )
+ ( /50AF30D7/50BC1F45 $noname  Q1 NPN {Lib=NPN}
+  (    1 N-000074 )
+  (    2 /PIC18F66J50/M1 )
+  (    3 +5V )
+ )
+ ( /50AF30D7/50B4A00A $noname  U3 LB1836M {Lib=LB1836M}
+  (    1 N-000072 )
+  (    2 /Motor_Driver/MD31 )
+  (    3 M31 )
+  (    4 Vout )
+  (    5 M32 )
+  (    6 /Motor_Driver/MD32 )
+  (    7 AGND )
+  (    8 ? )
+  (    9 /PIC18F66J50/MD42 )
+  (   10 M42 )
+  (   11 Vout )
+  (   12 M41 )
+  (   13 /PIC18F66J50/MD41 )
+  (   14 AGND )
+ )
+ ( /50AF30D7/50AF6F73 $noname  K9 Servo4 {Lib=CONN_3}
+  (    1 /PIC18F66J50/MD41 )
+  (    2 Vservo )
+  (    3 AGND )
+ )
+ ( /50AF30D7/50AF6F64 $noname  K7 Servo2 {Lib=CONN_3}
+  (    1 /Motor_Driver/MD21 )
+  (    2 Vservo )
+  (    3 AGND )
+ )
+ ( /50AF30D7/50AF698C $noname  K6 Servo1 {Lib=CONN_3}
+  (    1 /PIC18F66J50/MD11 )
+  (    2 Vservo )
+  (    3 AGND )
+ )
+ ( /50AF30D7/50AF666E $noname  K3 Motor3 {Lib=CONN_3}
+  (    1 M31 )
+  (    2 M31 )
+  (    3 M32 )
+ )
+ ( /50AF30D7/50AF666D $noname  K5 Motor4 {Lib=CONN_3}
+  (    1 M41 )
+  (    2 M41 )
+  (    3 M42 )
+ )
+ ( /50AF30D7/50AF30F9 $noname  K2 Motor2 {Lib=CONN_3}
+  (    1 M21 )
+  (    2 M21 )
+  (    3 M22 )
+ )
+ ( /50AF30D7/50AF30F8 $noname  K1 Motor1 {Lib=CONN_3}
+  (    1 M11 )
+  (    2 M11 )
+  (    3 M12 )
+ )
+ ( /4FB5EBA8/50AF501C $noname  P8 CONN_4X2 {Lib=CONN_4X2}
+  (    1 +3.3V )
+  (    2 AGND )
+  (    3 +3.3V )
+  (    4 AGND )
+  (    5 +3.3V )
+  (    6 AGND )
+  (    7 +3.3V )
+  (    8 AGND )
+ )
+ ( /4FB5EBA8/50AF5015 $noname  P6 CONN_4X2 {Lib=CONN_4X2}
+  (    1 +3.3V )
+  (    2 AGND )
+  (    3 +3.3V )
+  (    4 AGND )
+  (    5 +3.3V )
+  (    6 AGND )
+  (    7 +3.3V )
+  (    8 AGND )
+ )
+ ( /4FB5EBA8/50AF4ECD $noname  P9 Pull-up5 {Lib=CONN_2}
+  (    1 N-000031 )
+  (    2 /Sensor_port/SS5 )
+ )
+ ( /4FB5EBA8/50AF4EC8 $noname  P10 CONN_4 {Lib=CONN_4}
+  (    1 /Sensor_port/SS5 )
+  (    2 /Sensor_port/SS6 )
+  (    3 /Sensor_port/SS7 )
+  (    4 /Sensor_port/SS8 )
+ )
+ ( /4FB5EBA8/50AF4EBD $noname  P7 CONN_4 {Lib=CONN_4}
+  (    1 /Sensor_port/SS1 )
+  (    2 /PIC18F66J50/SS2 )
+  (    3 /Sensor_port/SS3 )
+  (    4 /PIC18F66J50/SS4 )
+ )
+ ( /4FB5EBA8/50AF4E81 $noname  C12 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 +3.3V )
+ )
+ ( /4FB5EBA8/50AF4E15 $noname  RR1 RR8 {Lib=RR8}
+  (    1 +3.3V )
+  (    2 N-000030 )
+  (    3 /PIC18F66J50/SS2 )
+  (    4 /Sensor_port/SS3 )
+  (    5 /PIC18F66J50/SS4 )
+  (    6 N-000031 )
+  (    7 /Sensor_port/SS6 )
+  (    8 /Sensor_port/SS7 )
+  (    9 /Sensor_port/SS8 )
+ )
+ ( /4FB5EBA8/4FB5EBCD $noname  P5 Pull-up1 {Lib=CONN_2}
+  (    1 N-000030 )
+  (    2 /Sensor_port/SS1 )
+ )
+ ( /50AF462D/5192578A $noname  P15 CONN_13X2 {Lib=CONN_13X2}
+  (    1 3V3 )
+  (    2 +5V )
+  (    3 GPIO0 )
+  (    4 +5V )
+  (    5 GPIO1 )
+  (    6 AGND )
+  (    7 GPIO4 )
+  (    8 Tx )
+  (    9 AGND )
+  (   10 Rx )
+  (   11 GPIO17 )
+  (   12 GPIO18 )
+  (   13 GPIO21 )
+  (   14 AGND )
+  (   15 GPIO22 )
+  (   16 GPIO23 )
+  (   17 3V3 )
+  (   18 GPIO24 )
+  (   19 GPIO10 )
+  (   20 AGND )
+  (   21 GPIO9 )
+  (   22 GPIO25 )
+  (   23 GPIO11 )
+  (   24 GPIO8 )
+  (   25 AGND )
+  (   26 GPIO7 )
+ )
+ ( /50AF462D/50AF4688 $noname  P11 Pi-Topping {Lib=CONN_13X2}
+  (    1 3V3 )
+  (    2 +5V )
+  (    3 GPIO0 )
+  (    4 +5V )
+  (    5 GPIO1 )
+  (    6 AGND )
+  (    7 GPIO4 )
+  (    8 Rx )
+  (    9 AGND )
+  (   10 Tx )
+  (   11 GPIO17 )
+  (   12 GPIO18 )
+  (   13 GPIO21 )
+  (   14 AGND )
+  (   15 GPIO22 )
+  (   16 GPIO23 )
+  (   17 3V3 )
+  (   18 GPIO24 )
+  (   19 GPIO10 )
+  (   20 AGND )
+  (   21 GPIO9 )
+  (   22 GPIO25 )
+  (   23 GPIO11 )
+  (   24 GPIO8 )
+  (   25 AGND )
+  (   26 GPIO7 )
+ )
+ ( /4FB5EB41/518B8907 $noname  C1 100uF {Lib=C}
+  (    1 +5V )
+  (    2 AGND )
+ )
+ ( /4FB5EB41/518B7C3D $noname  R11 10 {Lib=R}
+  (    1 +5V )
+  (    2 Vout )
+ )
+ ( /4FB5EB41/518B7519 $noname  D8 DIODE {Lib=DIODE}
+  (    1 AGND )
+  (    2 N-000028 )
+ )
+ ( /4FB5EB41/518B7514 $noname  R12 0.25 {Lib=R}
+  (    1 +5V )
+  (    2 N-000028 )
+ )
+ ( /4FB5EB41/518B7510 $noname  D9 DIODE {Lib=DIODE}
+  (    1 N-000028 )
+  (    2 Vservo )
+ )
+ ( /4FB5EB41/518B73EA $noname  P13 Jumper_Power {Lib=CONN_2}
+  (    1 N-000021 )
+  (    2 N-000022 )
+ )
+ ( /4FB5EB41/518B706D $noname  P12 USB {Lib=CONN_5}
+  (    1 AGND )
+  (    2 ? )
+  (    3 D+ )
+  (    4 D- )
+  (    5 N-000022 )
+ )
+ ( /4FB5EB41/50AF36D0 $noname  C15 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 +5V )
+ )
+ ( /4FB5EB41/4FB5EB6D $noname  C21 10uF {Lib=C}
+  (    1 +3.3V )
+  (    2 AGND )
+ )
+ ( /4FB5EB41/4FB5EB6B $noname  SW2 SWITCH_INV2 {Lib=SWITCH_INV2}
+  (    1 +5V )
+  (    2 +5V )
+  (    3 +5V )
+  (    4 N-000021 )
+  (    5 N-000021 )
+  (    6 +5V )
+ )
+ ( /4FB5EB41/4FB5EB62 $noname  K13 Reg3.3V {Lib=CONN_3}
+  (    1 AGND )
+  (    2 +3.3V )
+  (    3 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D13
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/PIC18F66J50/MD11" "MD11"
+ K6 1
+ U1 55
+ U2 2
+Net 2 "/PIC18F66J50/MD41" "MD41"
+ U1 44
+ K9 1
+ U3 13
+Net 3 "/Motor Driver/MD31" "MD31"
+ U1 45
+ K8 1
+ U3 2
+Net 4 "/PIC18F66J50/MD22" "MD22"
+ U1 54
+ U2 9
+Net 5 "/Motor Driver/MD12" "MD12"
+ U1 58
+ U2 6
+Net 6 "/PIC18F66J50/M1" "M1"
+ Q1 2
+ U1 60
+Net 7 "/Sensor_port/SS6" "SS6"
+ P10 2
+ U1 23
+ RR1 7
+Net 8 "/Sensor_port/SS8" "SS8"
+ RR1 9
+ U1 27
+ P10 4
+Net 9 "/PIC18F66J50/SS2" "SS2"
+ U1 13
+ RR1 3
+ P7 2
+Net 10 "/PIC18F66J50/SS4" "SS4"
+ U1 21
+ RR1 5
+ P7 4
+Net 11 "/Sensor_port/SS3" "SS3"
+ U1 16
+ RR1 4
+ P7 3
+Net 12 "/Sensor_port/SS1" "SS1"
+ P5 2
+ U1 12
+ P7 1
+Net 13 "/Sensor_port/SS7" "SS7"
+ U1 24
+ RR1 8
+ P10 3
+Net 14 "/Sensor_port/SS5" "SS5"
+ P10 1
+ P9 2
+ U1 22
+Net 15 "/Motor Driver/MD21" "MD21"
+ U1 53
+ U2 13
+ K7 1
+Net 16 "/Motor Driver/M2" "M2"
+ U1 47
+ Q2 2
+Net 17 "/Motor Driver/MD32" "MD32"
+ U1 46
+ U3 6
+Net 18 "/PIC18F66J50/MD42" "MD42"
+ U1 43
+ U3 9
+Net 19 "D+" "D+"
+ U1 14
+ P12 3
+Net 20 "D-" "D-"
+ P12 4
+ U1 15
+Net 21 "" ""
+ SW2 5
+ P13 1
+ SW2 4
+Net 22 "" ""
+ P13 2
+ P12 5
+Net 23 "+5V" "+5V"
+ P1 4
+ Q2 3
+ Q1 3
+ P11 4
+ P15 4
+ P15 2
+ P11 2
+ SW2 1
+ R11 1
+ R12 1
+ SW2 6
+ C1 1
+ SW2 3
+ K13 3
+ C15 2
+ SW2 2
+Net 24 "Vservo" "Vservo"
+ D9 2
+ K6 2
+ K8 2
+ K7 2
+ K9 2
+Net 25 "AGND" "AGND"
+ P1 1
+ C15 1
+ C21 2
+ P3 6
+ K8 3
+ U1 56
+ U1 25
+ D3 2
+ D8 1
+ P12 1
+ C7 1
+ C9 1
+ K13 1
+ K10 2
+ U2 7
+ D2 2
+ K7 3
+ K9 3
+ K6 3
+ R6 2
+ U2 14
+ R13 2
+ C1 2
+ U3 14
+ U1 41
+ U3 7
+ U1 9
+ P15 20
+ P2 1
+ P11 14
+ P15 25
+ C10 1
+ C11 1
+ C6 2
+ C8 1
+ P11 25
+ SP1 2
+ P8 6
+ P11 6
+ P11 9
+ P11 20
+ P8 4
+ P8 2
+ P15 14
+ P15 9
+ P6 4
+ P4 3
+ P6 6
+ P6 2
+ P8 8
+ C12 1
+ C5 1
+ P6 8
+ P15 6
+Net 26 "+3.3V" "+3.3V"
+ C8 2
+ C12 2
+ C21 1
+ RR1 1
+ P8 7
+ SW1 1
+ P6 1
+ P4 2
+ R3 2
+ P14 2
+ C6 1
+ SW3 1
+ P6 7
+ P6 5
+ P6 3
+ U1 17
+ U1 26
+ U1 57
+ U1 18
+ U1 38
+ K10 1
+ K13 2
+ P3 1
+ P8 1
+ C9 2
+ P8 5
+ P8 3
+ C7 2
+Net 27 "Vout" "Vout"
+ U3 11
+ U2 11
+ U2 4
+ R11 2
+ U3 4
+Net 28 "" ""
+ D8 2
+ D9 1
+ R12 2
+Net 30 "" ""
+ P5 1
+ RR1 2
+Net 31 "" ""
+ RR1 6
+ P9 1
+Net 32 "" ""
+ D1 1
+ R3 1
+Net 33 "PGD" "PGD"
+ P4 4
+ U1 37
+Net 34 "PGC" "PGC"
+ P4 5
+ U1 42
+Net 35 "" ""
+ SP1 1
+ U1 33
+Net 36 "" ""
+ U1 10
+ C5 2
+Net 37 "Rx" "Rx"
+ P15 10
+ P2 3
+ P11 8
+ U1 32
+Net 38 "MCLR" "MCLR"
+ U1 7
+ P4 1
+ D1 2
+Net 40 "SDA" "SDA"
+ U1 35
+ P1 3
+ R1 2
+Net 41 "INF" "INF"
+ U1 59
+ K10 3
+Net 42 "LED2" "LED2"
+ U1 30
+ R5 1
+Net 43 "" ""
+ R5 2
+ D3 1
+Net 44 "SCL" "SCL"
+ P1 2
+ R2 2
+ U1 34
+Net 45 "MOSI" "MOSI"
+ P3 3
+ U1 51
+Net 46 "SCK" "SCK"
+ P3 4
+ U1 50
+Net 47 "SW" "SW"
+ R13 1
+ SW3 2
+ U1 28
+Net 48 "/PIC18F66J50/D" "D"
+ U1 63
+ S2 2
+Net 49 "" ""
+ C11 2
+ X1 1
+ U1 39
+Net 50 "" ""
+ X1 2
+ U1 40
+ C10 2
+Net 51 "/PIC18F66J50/DIG.3" "DIG.3"
+ S2 8
+ U1 4
+Net 52 "/PIC18F66J50/C" "C"
+ U1 61
+ S2 4
+Net 53 "Tx" "Tx"
+ P15 8
+ P11 10
+ P2 2
+ U1 31
+Net 57 "LED1" "LED1"
+ R4 1
+ U1 29
+Net 58 "CS#" "CS#"
+ U1 49
+ P3 5
+Net 59 "" ""
+ R1 1
+ R2 1
+ P14 1
+Net 60 "MISO" "MISO"
+ U1 52
+ P3 2
+Net 61 "/PIC18F66J50/E" "E"
+ U1 64
+ S2 1
+Net 62 "/PIC18F66J50/DP" "DP"
+ U1 62
+ S2 3
+Net 63 "/PIC18F66J50/G" "G"
+ U1 1
+ S2 5
+Net 64 "/PIC18F66J50/B" "B"
+ S2 7
+ U1 3
+Net 65 "" ""
+ D2 1
+ R4 2
+Net 66 "" ""
+ R6 1
+ SW1 2
+ U1 48
+Net 67 "/PIC18F66J50/DIG.4" "DIG.4"
+ S2 6
+ U1 2
+Net 68 "/PIC18F66J50/DIG.1" "DIG.1"
+ S2 12
+ U1 11
+Net 69 "/PIC18F66J50/A" "A"
+ U1 8
+ S2 11
+Net 70 "/PIC18F66J50/F" "F"
+ U1 6
+ S2 10
+Net 71 "/PIC18F66J50/DIG.2" "DIG.2"
+ S2 9
+ U1 5
+Net 72 "" ""
+ Q2 1
+ U3 1
+Net 73 "M11" "M11"
+ D10 2
+ K1 1
+ U2 3
+ D4 1
+ K1 2
+Net 74 "" ""
+ U2 1
+ Q1 1
+Net 75 "M12" "M12"
+ R7 2
+ U2 5
+ K1 3
+Net 76 "" ""
+ D11 1
+ D5 2
+ R8 1
+Net 77 "M22" "M22"
+ R8 2
+ K2 3
+ U2 10
+Net 78 "" ""
+ D4 2
+ D10 1
+ R7 1
+Net 79 "M42" "M42"
+ U3 10
+ R10 2
+ K5 3
+Net 80 "M21" "M21"
+ D5 1
+ U2 12
+ D11 2
+ K2 1
+ K2 2
+Net 83 "M32" "M32"
+ U3 5
+ R9 2
+ K3 3
+Net 84 "M41" "M41"
+ D7 1
+ U3 12
+ K5 2
+ K5 1
+ D13 2
+Net 85 "" ""
+ D12 1
+ R9 1
+ D6 2
+Net 86 "M31" "M31"
+ U3 3
+ D12 2
+ K3 2
+ K3 1
+ D6 1
+Net 87 "" ""
+ D13 1
+ D7 2
+ R10 1
+Net 88 "3V3" "3V3"
+ P11 17
+ P15 1
+ P15 17
+ P11 1
+Net 89 "GPIO0" "GPIO0"
+ P15 3
+ P11 3
+Net 90 "GPIO1" "GPIO1"
+ P15 5
+ P11 5
+Net 91 "GPIO17" "GPIO17"
+ P15 11
+ P11 11
+Net 92 "GPIO18" "GPIO18"
+ P15 12
+ P11 12
+Net 93 "GPIO25" "GPIO25"
+ P11 22
+ P15 22
+Net 94 "GPIO21" "GPIO21"
+ P11 13
+ P15 13
+Net 95 "GPIO11" "GPIO11"
+ P15 23
+ P11 23
+Net 96 "GPIO9" "GPIO9"
+ P11 21
+ P15 21
+Net 97 "GPIO8" "GPIO8"
+ P11 24
+ P15 24
+Net 98 "GPIO22" "GPIO22"
+ P15 15
+ P11 15
+Net 99 "GPIO23" "GPIO23"
+ P11 16
+ P15 16
+Net 100 "GPIO7" "GPIO7"
+ P11 26
+ P15 26
+Net 101 "GPIO24" "GPIO24"
+ P15 18
+ P11 18
+Net 102 "GPIO10" "GPIO10"
+ P11 19
+ P15 19
+Net 103 "GPIO4" "GPIO4"
+ P15 7
+ P11 7
+}
+#End
